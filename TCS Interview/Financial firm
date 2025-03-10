@@ -1,0 +1,28 @@
+In the fast-paced world of finance, analysts are constantly monitoring stock prices to identify trends that could indicate future market behavior. One of the key tasks in this analysis is to determine whether a stock's price has been consistently increasing or decreasing over a specified period. This information can help investors make informed decisions about buying or selling stocks. Imagine you are a data analyst at a financial firm, and your team has been tasked with evaluating the performance of various stocks over the past month. You have gathered the daily closing prices of a particular stock, and your goal is to determine if the stock's price has been monotonic—either consistently increasing or consistently decreasing.You are given an integer array nums, where each element represents the closing price of the stock on a given day. Your job is to write a program that checks whether this array is monotonic. If the prices are either monotone increasing or monotone decreasing, you will return true; otherwise, you will return false.
+
+Input Format
+
+An integer n representing the number of days (length of the array). An array of integers arr of length n, where each element represents the closing price of the stock on that day. text
+
+Constraints
+
+1 <= nums.length <= 105 -105 <= nums[i] <= 105
+
+Output Format
+
+The output is a boolean value indicating whether the given array is monotonic or not.
+
+Sample Input 0
+
+4
+1 2 3 4
+Sample Output 0
+
+true
+Sample Input 1
+
+3
+1 3 2
+Sample Output 1
+
+false

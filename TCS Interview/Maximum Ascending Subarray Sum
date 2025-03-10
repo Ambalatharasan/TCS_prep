@@ -1,0 +1,32 @@
+Given an array of positive integers nums, return the maximum possible sum of an ascending subarray in nums.
+
+A subarray is defined as a contiguous sequence of numbers in an array.
+
+A subarray [numsl, numsl+1, ..., numsr-1, numsr] is ascending if for all i where l <= i < r, numsi < numsi+1. Note that a subarray of size 1 is ascending.
+
+Input Format
+
+An integer n representing the number of elements in the array nums. A sequence of n positive integers representing the elements of the array nums
+
+Constraints
+
+1 <= nums.length <= 100 1 <= nums[i] <= 100
+
+Output Format
+
+The output will be a single integer, which is the maximum possible sum of an ascending subarray in nums.
+
+Sample Input 0
+
+6
+10 20 30 5 10 50
+Sample Output 0
+
+65
+Sample Input 1
+
+5
+10 20 30 40 50
+Sample Output 1
+
+150

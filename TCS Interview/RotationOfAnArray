@@ -1,0 +1,22 @@
+The challenge involves rotating the array a number of times specified by the user, effectively moving elements to their new positions after each rotation. This process is beneficial in scenarios where data needs to be cyclically permuted for computation, data transformation, or algorithmic purposes.
+
+Input Format
+
+The first line of input should be an integer, size, representing the number of elements in the array. The next size lines should contain the integers of the array, one per line. The last line should contain a single integer, k, representing the number of right rotations to perform on the array.
+
+Constraints
+
+1 <= size <= 10^5 (The size of the array should be at least 1 and not more than 100,000). -10^9 <= array elements <= 10^9 (Array elements can range between -1 billion to 1 billion). 0 <= k <= 10^6 (The number of rotations will not exceed 1 million).
+
+Output Format
+
+The output should be a single line containing the array elements after k rotations, separated by spaces.
+
+Sample Input 0
+
+5
+1 2 3 4 5
+1
+Sample Output 0
+
+5 1 2 3 4

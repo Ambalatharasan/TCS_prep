@@ -1,0 +1,23 @@
+You are tasked with developing a function as part of a larger system managing a virtual environment, simulating physical objects and their interactions. In this virtual environment, objects are represented by integers in an array. Each object's movement or action is symbolized by its numerical value, except for the number 0, which represents an object at rest or a space void of any object.
+
+Your objective is to write an algorithm that rearranges the objects in the environment, pushing all the "inactive" or "rest" objects (denoted by 0) to the end of the environment, while ensuring that the active objects maintain their initial sequence of action or movement. This rearrangement must be done in place to optimize memory usage, as the virtual environment is designed to run on devices with limited memory capacity.
+
+Input Format
+
+The first line contains an integer N, the size of the array. The second line contains N space-separated integers representing the array elements.
+
+Constraints
+
+1 <= nums.length <= 104 -231 <= nums[i] <= 231 - 1
+
+Output Format
+
+A single line containing N space-separated integers representing the array after moving all `0's to the end, maintaining the relative order of the non-zero elements.
+
+Sample Input 0
+
+5
+12 0 9 0 8
+Sample Output 0
+
+12 9 8 0 0
